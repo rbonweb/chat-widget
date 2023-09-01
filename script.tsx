@@ -13,6 +13,6 @@ window.onload = function () {
   body.appendChild(div);
   const script = document.createElement('script');
   script.type = 'module';
-  script.src = CHAT_HOST_URL + '/index.js';
+  script.src = CHAT_HOST_URL + '/main.js';
   body.appendChild(script);
 }
